@@ -1,0 +1,28 @@
+@import '../../../styles.less';
+
+header {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  padding: 20px;
+  background-color: @header-bg-color;
+}
+
+.logo img {
+  height: 50px;
+  width: 50px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-auto-flow: column;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: @link-color;
+}
